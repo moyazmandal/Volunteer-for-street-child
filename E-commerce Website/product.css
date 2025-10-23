@@ -1,0 +1,750 @@
+@import url('https://fonts.googleapis.com/css2?family=Cuprum:ital,wght@0,400..700;1,400..700&family=Finger+Paint&family=Gabriela&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Lexend+Zetta&family=Magra:wght@400;700&family=Marvel:ital,wght@0,400;0,700;1,400;1,700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto+Slab:wght@100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+/* basic-setup */
+*{
+padding: 0px;
+margin: 0px;
+box-sizing: border-box;
+}
+.all-body{
+  background-color: #f8f8f8;
+}
+
+.dropdown-item{
+    display: flex;
+}
+.all-body{
+    color: #F7F7F7;
+}
+/* header-container */
+.header-container{
+background-color: #2c2b2b;
+padding: 40px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+gap: 250px;
+border-bottom: 3px solid #121215;
+margin: 0px;
+}
+.header-logo{
+    display: flex;
+    gap: 15px;
+}
+.header-logo-img img{ 
+    font-size: 22px;
+height: 65px;
+width: 65px;
+}
+.header-logo-document h2{
+  color: #FEA526;
+  font-size: 40px;
+}
+.header-logo-document p{
+    font-size: 15px;
+    color: #666668;
+    font-weight: 400;
+    font-family: "Lexend Zetta", sans-serif;
+}
+.header-manu-item ul{
+list-style-type: none;
+align-items: center;
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+gap: 40px;
+}
+
+/* 1 */
+.header-manu-01{
+    display: flex;
+    gap: 15px;
+}
+.header-manu-img img{
+    height: 45px;
+    width: 45px;
+    color: white;
+    filter: brightness(200%);
+}
+.header-manu-document h2{
+  color: #707070;
+  font-size: 20px;
+}
+.header-manu-document p{
+    font-size: 15px;
+    color: #e0e0e0;
+    font-weight: 400;
+}
+.header-manu-document-1 h2{
+    color: #1a1a1a;
+    font-size: 20px;
+  }
+  .header-manu-document-1 h2 a{
+    text-decoration: none;
+    color: #707070;
+    font-size: 20px;
+  }
+  .header-manu-document-1 p{
+      font-size: 15px;
+      color: #d8d8d8;
+      font-weight: 400;
+  }
+  /* nav-bar */
+.container-fluid{
+    background-color: #2c2b2b;
+    margin: 0px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 60px;
+    padding-right: 60px;
+    border-top: 3px solid #121215;
+    margin-top: 0px;
+    margin-top: -10px;
+    margin-bottom: -10px;
+  }
+  .container-fluid {
+color: #FEA526;
+font-size: 20px;
+  }
+  /* hero-container */
+ .hero-container{
+  display: flex;
+  justify-content: space-between;
+  color:  #121215;
+  padding: 40px;
+  background-color: black;
+}
+.hero-container h2{
+  font-size: 35px;
+  color: #d8d8d8;
+  font-weight: 600;
+font-style: italic;
+padding-left:15px;
+}
+.hero-container p {
+  font-size: 18px;
+  color: #ffffff;
+  font-weight: 400;
+  padding-right:28px;
+}
+.hero-container a{
+  font-size: 18px;
+  color: #ffffff;
+  font-weight: 400;text-decoration: none;
+}
+/* main-container  */
+.main-container{
+  display: grid;
+  grid-template-columns: 1fr 2.5fr;
+  gap: 20px;
+  color: #a3a3a3;
+  background-color:#F7F7F7 ;
+  margin: 40px;
+  margin-left: 200px;
+  margin-right: 200px;
+}
+/* containeer-01*/
+.main-container-01{
+  background-color: #121215;
+  padding: 20px;
+  padding-top: 30px;
+  padding-bottom: -100px;
+
+}
+.container-header p{
+  font-size: 30px;
+  color: white;
+  font-weight: 400;
+  font-style: italic;
+}
+.container-header a{
+  font-size: 30px;
+  color: orange;
+  font-weight: 400;text-decoration: none;
+}
+
+/* section-1 */
+.main-container-01-section-01 h2{
+  font-size: 40px;
+  color: rgb(255, 255, 255);
+  font-weight: 500;
+  text-align: center;
+}
+.main-container-01-section-01 h3{
+  font-size: 20px;
+  color: rgb(145, 143, 141);
+  font-weight: 300;
+  text-align: center;
+  padding-bottom: 35px;
+}
+.main-container-01-section-01 a{
+  font-size: 20px;
+  color: orange;
+  font-weight: 400;text-decoration: none;
+}
+.main-container-01-section-01 h4{
+  font-size: 20px;
+  color: rgb(148, 148, 148);
+  font-weight: 400;
+  padding-left: 30px;
+}
+.main-container-01-section-01 button{
+  margin: 10px;
+  font-size: 15px;
+  padding-top: 15px;padding-bottom: 15px;
+  padding-right: 80px;padding-left: 80px;
+  color:white ;
+  background-color:orange ;
+}
+.main-container-01-section-01 button:hover{
+  transition: .5s;
+  background: rgb(255, 136, 0);
+}
+.main-container-01-section-01{
+  border-bottom: 1.5px solid gray;
+
+}
+/* 2 */
+.main-container-01-section-02 ul li{
+ list-style-type: square ;
+ color: #FEA526;
+}
+.main-container-01-section-02 ul li:hover{
+  color: #a3a3a3;
+}
+.main-container-01-section-03{
+  
+}
+.container-document{
+  display: flex;
+  align-items: center;
+gap: 10px;
+}
+
+.container-document button{
+padding-left: 30px;
+padding-right: 30px;
+padding-top: 10px;
+padding-bottom: 10px;
+}
+.container-document p{
+color: rgb(167, 166, 166);
+}
+.main-container-01-section-02{
+  border-bottom: 2px solid gray;
+  padding-top: 40px;padding-bottom: 40px;
+}
+.main-container-01-section-01{
+  padding-top: 20px;padding-bottom: 20px;
+}
+.container-02-document button{
+  margin: 10px;
+  font-size: 15px;
+  padding-top: 10px;padding-bottom: 10px;
+  padding-right: 25px;padding-left: 25px;
+  color:white ;
+  background-color:rgb(15, 15, 15) ;
+  border: 2px solid;
+  color: gray;
+}
+.container-02-document button:hover{
+  transition: .5s;
+  color: rgb(255, 136, 0);
+}
+/* main-con-2 */
+.main-container-02{
+  margin: 40px;
+}
+.main-container-02-header{
+display: flex;
+justify-content: space-between;
+margin-bottom: 40px;
+}
+.main-container-02{
+  
+}
+/* product-sectioon */
+.product-section{
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+gap: 40px;
+}
+
+
+/* p-02 */
+.product-section-02{
+  border: 1.5px solid gray;
+  padding: 10px;
+  background-color: #fff;
+}
+.product-section-02-1 {
+  background-image: url("https://kingler-html.themerex.net/images/product-4-300x300.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 90%;
+  height: 100px;
+  margin: 20px;
+  margin-top: 40px;
+}
+.product-section-02-1:hover button{
+  opacity: 1;
+}
+.product-section-02-1 button{
+  text-align: center;
+  padding-top: 40px;
+  opacity: 0;
+  margin: 10px;
+  font-size: 15px;
+  padding-top: 10px;padding-bottom: 10px;
+  padding-right: 30px;padding-left: 30px;
+  color:white ;
+  background-color:rgb(255, 115, 0) ;
+  border: 2px solid gray;
+  margin-top: 30px;
+}
+.product-section-02-2 p{
+  padding-top: 50px;
+}
+.product-section-02-2 p:hover{
+ color: orange;
+}
+/* p-01 */
+.product-section-01{
+  border: 1.5px solid gray;
+  padding: 10px;
+  background-color: #fff;
+}
+.product-section-01-1 {
+  background-image: url("https://kingler-html.themerex.net/images/product-7-300x300.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 90%;
+  height: 100px;
+  margin: 20px;
+  margin-top: 40px;
+}
+.product-section-01-1:hover button{
+  opacity: 1;
+}
+.product-section-01-1 button{
+  text-align: center;
+  padding-top: 40px;
+  opacity: 0;
+  margin: 10px;
+  font-size: 15px;
+  padding-top: 10px;padding-bottom: 10px;
+  padding-right: 30px;padding-left: 30px;
+  color:white ;
+  background-color:rgb(255, 115, 0) ;
+  border: 2px solid gray;
+  margin-top: 30px;
+}
+
+/* p-03 */
+.product-section-03{
+  border: 1.5px solid gray;
+  padding: 10px;
+  background-color: #fff;
+}
+.product-section-03-1 {
+  background-image: url("https://kingler-html.themerex.net/images/product-9-300x300.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 90%;
+  height: 100px;
+  margin: 20px;
+  margin-top: 40px;
+}
+.product-section-03-1:hover button{
+  opacity: 1;
+}
+.product-section-03-1 button{
+  text-align: center;
+  padding-top: 40px;
+  opacity: 0;
+  margin: 10px;
+  font-size: 15px;
+  padding-top: 10px;padding-bottom: 10px;
+  padding-right: 30px;padding-left: 30px;
+  color:white ;
+  background-color:rgb(255, 115, 0) ;
+  border: 2px solid gray;
+  margin-top: 30px;
+}
+/* p-04 */
+.product-section-04{
+  border: 1.5px solid gray;
+  padding: 10px;
+  background-color: #fff;
+}
+.product-section-04-1 {
+  background-image: url("https://kingler-html.themerex.net/images/product-6-300x300.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 90%;
+  height: 100px;
+  margin: 20px;
+  margin-top: 40px;
+}
+.product-section-04-1:hover button{
+  opacity: 1;
+}
+.product-section-04-1 button{
+  text-align: center;
+  padding-top: 40px;
+  opacity: 0;
+  margin: 10px;
+  font-size: 15px;
+  padding-top: 10px;padding-bottom: 10px;
+  padding-right: 30px;padding-left: 30px;
+  color:white ;
+  background-color:rgb(255, 115, 0) ;
+  border: 2px solid gray;
+  margin-top: 30px;
+}
+/* p-05 */
+.product-section-05{
+  border: 1.5px solid gray;
+  padding: 10px;
+  background-color: #fff;
+}
+.product-section-05-1 {
+  background-image: url("https://kingler-html.themerex.net/images/product-9-300x300.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 90%;
+  height: 100px;
+  margin: 20px;
+  margin-top: 40px;
+}
+.product-section-05-1:hover button{
+  opacity: 1;
+}
+.product-section-05-1 button{
+  text-align: center;
+  padding-top: 40px;
+  opacity: 0;
+  margin: 10px;
+  font-size: 15px;
+  padding-top: 10px;padding-bottom: 10px;
+  padding-right: 30px;padding-left: 30px;
+  color:white ;
+  background-color:rgb(255, 115, 0) ;
+  border: 2px solid gray;
+  margin-top: 30px;
+}
+/* p-06 */
+.product-section-06{
+  border: 1.5px solid gray;
+  padding: 10px;
+  background-color: #fff;
+}
+.product-section-06-1 {
+  background-image: url("https://kingler-html.themerex.net/images/product-11-300x300.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 90%;
+  height: 100px;
+  margin: 20px;
+  margin-top: 40px;
+}
+.product-section-06-1:hover button{
+  opacity: 1;
+}
+.product-section-06-1 button{
+  text-align: center;
+  padding-top: 40px;
+  opacity: 0;
+  margin: 10px;
+  font-size: 15px;
+  padding-top: 10px;padding-bottom: 10px;
+  padding-right: 30px;padding-left: 30px;
+  color:white ;
+  background-color:rgb(255, 115, 0) ;
+  border: 2px solid gray;
+  margin-top: 30px;
+}
+/* p-07 */
+.product-section-07{
+  border: 1.5px solid gray;
+  padding: 10px;
+  background-color: #fff;
+}
+.product-section-07-1 {
+  background-image: url("https://kingler-html.themerex.net/images/product-10-300x300.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 90%;
+  height: 100px;
+  margin: 20px;
+  margin-top: 40px;
+}
+.product-section-07-1:hover button{
+  opacity: 1;
+}
+.product-section-07-1 button{
+  text-align: center;
+  padding-top: 40px;
+  opacity: 0;
+  margin: 10px;
+  font-size: 15px;
+  padding-top: 10px;padding-bottom: 10px;
+  padding-right: 30px;padding-left: 30px;
+  color:white ;
+  background-color:rgb(255, 115, 0) ;
+  border: 2px solid gray;
+  margin-top: 30px;
+}
+/* p-08 */
+.product-section-08{
+  border: 1.5px solid gray;
+  padding: 10px;
+  background-color: #fff;
+}
+.product-section-08-1 {
+  background-image: url("https://kingler-html.themerex.net/images/product-3-300x300.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 90%;
+  height: 100px;
+  margin: 20px;
+  margin-top: 40px;
+}
+.product-section-08-1:hover button{
+  opacity: 1;
+}
+.product-section-08-1 button{
+  text-align: center;
+  padding-top: 40px;
+  opacity: 0;
+  margin: 10px;
+  font-size: 15px;
+  padding-top: 10px;padding-bottom: 10px;
+  padding-right: 30px;padding-left: 30px;
+  color:white ;
+  background-color:rgb(255, 115, 0) ;
+  border: 2px solid gray;
+  margin-top: 30px;
+}
+/* p-09 */
+.product-section-09{
+  border: 1.5px solid gray;
+  padding: 10px;
+  background-color: #fff;
+}
+.product-section-09-1 {
+  background-image: url("https://kingler-html.themerex.net/images/product-3-300x300.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 90%;
+  height: 100px;
+  margin: 20px;
+  margin-top: 40px;
+}
+.product-section-09-1:hover button{
+  opacity: 1;
+}
+.product-section-09-1 button{
+  text-align: center;
+  padding-top: 40px;
+  opacity: 0;
+  margin: 10px;
+  font-size: 15px;
+  padding-top: 10px;padding-bottom: 10px;
+  padding-right: 30px;padding-left: 30px;
+  color:white ;
+  background-color:rgb(255, 115, 0) ;
+  border: 2px solid gray;
+  margin-top: 30px;
+}
+/* p-10 */
+.product-section-10{
+  border: 1.5px solid gray;
+  padding: 10px;
+  background-color: #fff;
+}
+.product-section-10-1 {
+  background-image: url("https://kingler-html.themerex.net/images/product-1-300x300.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 90%;
+  height: 100px;
+  margin: 20px;
+  margin-top: 40px;
+}
+.product-section-10-1:hover button{
+  opacity: 1;
+}
+.product-section-10-1 button{
+  text-align: center;
+  padding-top: 40px;
+  opacity: 0;
+  margin: 10px;
+  font-size: 15px;
+  padding-top: 10px;padding-bottom: 10px;
+  padding-right: 30px;padding-left: 30px;
+  color:white ;
+  background-color:rgb(255, 115, 0) ;
+  border: 2px solid gray;
+  margin-top: 30px;
+}
+/* p-11 */
+.product-section-11{
+  border: 1.5px solid gray;
+  padding: 10px;
+  background-color: #fff;
+}
+.product-section-11-1 {
+  background-image: url("https://kingler-html.themerex.net/images/product-3-300x300.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 90%;
+  height: 100px;
+  margin: 20px;
+  margin-top: 40px;
+}
+.product-section-11-1:hover button{
+  opacity: 1;
+}
+.product-section-11-1 button{
+  text-align: center;
+  padding-top: 40px;
+  opacity: 0;
+  margin: 10px;
+  font-size: 15px;
+  padding-top: 10px;padding-bottom: 10px;
+  padding-right: 30px;padding-left: 30px;
+  color:white ;
+  background-color:rgb(255, 115, 0) ;
+  border: 2px solid gray;
+  margin-top: 30px;
+}
+/* p-12 */
+.product-section-12{
+  border: 1.5px solid gray;
+  padding: 10px;
+  background-color: #fff;
+}
+.product-section-12-1 {
+  background-image: url("https://kingler-html.themerex.net/images/product-3-300x300.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 90%;
+  height: 100px;
+  margin: 20px;
+  margin-top: 40px;
+}
+.product-section-12-1:hover button{
+  opacity: 1;
+}
+.product-section-12-1 button{
+  text-align: center;
+  padding-top: 40px;
+  opacity: 0;
+  margin: 10px;
+  font-size: 15px;
+  padding-top: 10px;padding-bottom: 10px;
+  padding-right: 30px;padding-left: 30px;
+  color:white ;
+  background-color:rgb(255, 115, 0) ;
+  border: 2px solid gray;
+  margin-top: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* mid-container */
+.middle-container{
+    display: grid;
+    grid-template-columns: .5fr 1fr 1fr 1fr .5fr;
+    margin-top: 70px;
+    background-color:black;
+    padding-top: 30px;
+  }
+  .middle-container-02 p{
+  font-size: 30px;
+  color: rgb(255, 255, 255);
+  font-style: italic;
+  }
+  .middle-container-02 a{
+    text-decoration: none;
+    font-size: 30px;
+    color: orange;
+  }
+  /* main-container */
+  .-main-container{
+    display: grid;
+    grid-template-columns: .5fr 1fr 1fr 1fr .5fr;
+    margin-top: 0px;
+    padding-top: 20px;
+    background-color: black;
+    margin-bottom: 0px;
+  }
+  .-main-container-02{
+    display: grid;
+    grid-template-columns: .8fr 2fr;
+    margin-right: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .-main-container-02-section-01 img{
+  height: 85px;
+  width: 85px;
+  }
+  .-main-container-02-section-02 h3{
+    font-size: 18px;
+    color:gray;
+    font-weight: 400px;
+    
+  }
+  .-main-container-02-section-02 :hover{
+    color: orange;
+  }
+  .-main-container-02-section-02 h2{
+    
+  font-size: 20px;
+  color: orange;font-weight:700px;
+  }
+  
+/* footer */
+.footer-container {
+    padding: 40px;
+    padding-top: 40px;
+    text-align: center;background-color: #2C2B2B;
+    color: #dadada;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: "Lexend Zetta", sans-serif;
+  }
+  .footer-container a{
+    text-decoration: none;
+  color: orange;
+  }
+  
