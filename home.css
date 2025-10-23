@@ -1,0 +1,366 @@
+@import url('https://fonts.googleapis.com/css2?family=Cuprum:ital,wght@0,400..700;1,400..700&family=Finger+Paint&family=Gabriela&family=Hind+Siliguri:wght@300;400;500;600;700&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Lexend+Zetta&family=Magra:wght@400;700&family=Marvel:ital,wght@0,400;0,700;1,400;1,700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Oswald:wght@200..700&family=Pixelify+Sans:wght@400..700&family=Play:wght@400;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+}
+.nav-bar {
+    background-color: #222A33;
+}
+.donate-btn {
+    background: linear-gradient(135deg, #37b8f3, #75cbf3); 
+    color: #ffffff;
+    font-weight: 500;
+    border: none;
+    border-radius: 30px;
+    transition: all 0.4s ease;
+    box-shadow: 0 4px 10px rgba(79, 195, 247, 0.4);
+  }
+  
+  .donate-btn:hover {
+    background: linear-gradient(135deg, #27b6f8, #59d0e0); 
+    transform: scale(1.08);
+    box-shadow: 0 6px 18px rgba(41, 182, 246, 0.5);
+    color: #fff;}
+  .nav-manu a{
+color: #ffffff;
+transition: color 0.3s;
+  }
+
+  .nav-manu a:hover{
+    border-bottom: 4px solid coral;
+    padding-bottom: 5px; 
+    font-weight: 600;
+    color: #ff7a2d;
+    border-radius: none;
+  }
+  
+
+.nav-btn{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 45px;
+    padding-right: 45px;
+    font-size: 20px;
+    font-weight: 500;
+    border: 2px solid rgb(0, 0, 54);
+}
+/* slide */
+.third-slide {
+  position: relative;
+  width: 100%;
+  height:878px;
+}
+
+.third-slide-background{
+    background-image: url('https://media.istockphoto.com/id/1199706305/photo/friends-linking-arms-in-unity.jpg?s=612x612&w=0&k=20&c=sOHOOdPG5hcNdD9BWC5vzRvRE_wS43usvWGaJLCUhu8=');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height:100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    text-align: center;
+    z-index: 1;
+    filter: brightness(40%);
+}
+.third-slide-document{
+  position: relative;
+  z-index: 2;
+  text-align: center;
+}
+.third-slide-document h1{
+color:rgb(255, 255, 255);
+font-weight: 900;
+font-size: 62px;
+  margin-top: 280px;
+}
+.third-slide-document p {
+  font-size: 30px;
+color: rgb(255, 255, 255);
+font-weight: 400;
+}
+.third-slide-document button {
+  padding: 10px 30px;
+  padding-left: 55px ;
+  padding-right: 55px;
+  border-radius: 20px;
+  background: linear-gradient(to right, #18cdff, #1e83ff);
+  border: none;
+  color: white;
+  font-weight: 600;
+  font-size: 1.7rem;
+  transition: all 0.3s ease;
+  text-decoration: none;
+}
+
+.third-slide-document button:hover {
+  transform: scale(1.05);
+  font-size: 1.75rem; 
+  background: linear-gradient(to right, #147bf8, #1acdff); 
+}
+
+
+
+
+.glass-card{
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  border-radius: 25px;
+  backdrop-filter: blur(12px);
+  width: 500px;
+  margin-left: 230px;
+}
+
+/* button */
+/* donate-btn-slider */
+.donate-btn-slider{
+    padding-top: 12.5px;
+    padding-bottom: 12.5px;
+    padding-left: 32px;
+    padding-right: 32px;
+    font-size: 20px;
+    background: transparent;
+    color: white;
+    font-weight: 500px;
+    border: 1px solid white;
+}
+.donate-btn-slider:hover{
+background-color: coral;
+border: none;
+transition: all .4s ease;
+}
+/* check-btn-slider */
+.check-btn-slider{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 40px;
+    padding-right: 40px;
+    font-size: 20px;
+    background: #BF271A;
+    color: #ffffff;
+    font-weight: 500px;
+    border: none;
+    margin-left: 10px;
+}
+.check-btn-slider:hover{
+    background-color: rgb(0, 0, 0);
+    border: none;
+    transition: all .4s ease;
+    }
+    /*  header discrbtion section  */
+    /* 1st */
+    .first-describtion{
+      background-image: url('https://fastwpdemo.com/demo/volunteer/wp-content/themes/volunteer/assets/images/icons/map-pattern.png');
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+      height: 500px;
+      width: 100%;
+      background-color: #F06626;
+    }
+
+    /* 2nd */
+    .second-describtion {
+      position: relative;
+      height: 500px;
+      width: 100%;
+      overflow: hidden;
+    }
+    
+    .background {
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 100%;
+      width: 100%;
+      background-image: url('https://t3.ftcdn.net/jpg/07/66/25/36/360_F_766253638_6XA81AK34KOUHHTo06WFJOIgeLJRf1kM.jpg');
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+      filter: brightness(30%);
+      z-index: 1;
+    }
+    
+    .content {
+      position: relative;
+      z-index: 2;
+      color: white;
+    }
+    
+
+    /* 3rd */
+    .third-describtion{
+      background-image: url('https://fastwpdemo.com/demo/volunteer/wp-content/themes/volunteer/assets/images/icons/map-pattern.png');
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+      height: 500px;
+      width: 100%;
+      background-color: #BF271A;
+    }
+
+    .header-discrbtion-section h2{
+      color: white;
+      position: relative;
+      padding-top: 50px;
+      padding-left: 40px;
+      padding-right: 40px;
+    }
+    .header-discrbtion-section h4 { 
+      color: white;
+      position: relative;
+      padding-top: 6px;
+      padding-left: 40px;
+      padding-right: 40px;
+      
+    }
+    .header-discrbtion-section p { 
+      position: relative;
+      color: white;
+      padding-top: 12px;
+      padding-left: 40px;
+      padding-right: 40px;
+      line-height:30px ;
+    }
+    .discrbtion-button{ 
+      text-align: right;
+      padding-right: 55px;
+      padding-top: 20px;
+    }
+    .discrbtion-button  button { 
+      padding-top: 10px;
+      padding-bottom: 10px;
+      padding-left: 20px;
+      padding-right: 20px;
+      font-size: 18px;
+      font-weight: 600;
+      background-color: transparent;
+      color: white;
+      border: 2px solid white;
+    }
+    .discrbtion-button button:hover{ 
+      background-color: #F06626;
+      border: 2px solid black;
+      transition: all .6s ease;
+    }
+
+    /* ==============DONATE================== */
+    .donate-section{
+        background-image: url('https://t4.ftcdn.net/jpg/07/77/03/35/360_F_777033511_YIX6kd0jKI9dw0PzvzlxrVYZ1rhEqGVi.jpg');
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        position: absolute;
+        width: 100%;
+        height: 500px;
+        filter: brightness(40%);
+      }
+/* foter */
+.unique-footer {
+  background-color: #003344;
+  color: #e6f9ff;
+  padding: 0;
+  font-family: 'Segoe UI', sans-serif;
+  position: relative;
+}
+
+.footer-wave svg {
+  display: block;
+  width: 100%;
+  height: 60px;
+  margin-bottom: -1px;
+}
+
+.footer-content {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.brand-message h2 {
+  font-size: 26px;
+  margin-bottom: 8px;
+  color: #99e6ff;
+}
+
+.brand-message p {
+  font-size: 16px;
+  margin-bottom: 30px;
+  color: #cceeff;
+}
+
+.footer-menu {
+  margin-bottom: 30px;
+}
+
+.footer-menu a {
+  margin: 0 15px;
+  color: #b3eaff;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+.footer-menu a:hover {
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+.footer-social p {
+  margin-bottom: 10px;
+  font-weight: bold;
+  color: #99e6ff;
+}
+
+.social-icons a img {
+  width: 24px;
+  height: 24px;
+  margin: 0 10px;
+  filter: invert(90%);
+  transition: transform 0.3s;
+}
+
+.social-icons a:hover img {
+  transform: scale(1.2);
+  filter: invert(100%);
+}
+
+.footer-bottom {
+  background-color: #00222e;
+  padding: 15px;
+  text-align: center;
+  font-size: 13px;
+  color: #b3d9e6;
+}
+.about-program {
+  background-color: #f0fbff;
+  color: #003344;
+  text-align: center;
+  padding: 50px 30px;
+  margin-top: 60px;
+  border-top: 3px solid #99e6ff;
+}
+
+.about-program h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+  color: #005577;
+}
+
+.about-program p {
+  font-size: 16px;
+  line-height: 1.8;
+  max-width: 800px;
+  margin: auto;
+  margin-bottom: 18px;
+}
+
+.about-program .highlight {
+  font-weight: bold;
+  color: #0077aa;
+  margin-top: 25px;
+}
